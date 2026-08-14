@@ -726,7 +726,7 @@ export default function App() {
             <div className="relative">
               <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl relative z-10 border-8 border-medical-slate">
                 <img 
-                  src="Doctor Image.jpg" 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQloCZh8X1tPDvKpHMK0oiRmu9kE2DsCoxN7WqIX5Erow&s=10" 
                   alt="Dr. Christal Doss" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
