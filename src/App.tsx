@@ -37,6 +37,7 @@ import { 
   Film
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import hospitalBanner from './LilyHospitals2.jpeg';
 
 interface VideoTopic {
   id: string;
@@ -422,12 +423,11 @@ export default function App() {
               className="relative"
             >
               <div className="aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] relative z-10 border-8 border-white">
-                <img 
-                  src="/LilyHospitals2.jpeg" 
-                  alt="Lily Clinic Banner" 
-                  className="w-full h-full object-contain bg-medical-ink"
-                  referrerPolicy="no-referrer"
-                />
+                <img 
+                    src={hospitalBanner} 
+                    alt="Lily Clinic Banner" 
+                    className="w-full h-full object-contain bg-medical-ink"  
+                />
               </div>
               
               {/* Floating Trust Card */}
