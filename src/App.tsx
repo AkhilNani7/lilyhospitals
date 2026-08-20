@@ -423,7 +423,7 @@ export default function App() {
             >
               <div className="aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] relative z-10 border-8 border-white">
                 <img 
-                  src="/LilyHospitals2.jpeg" 
+                  src="/LilyHospital.jpeg" 
                   alt="Lily Clinic Banner" 
                   className="w-full h-full object-contain bg-medical-ink"
                   referrerPolicy="no-referrer"
@@ -726,7 +726,7 @@ export default function App() {
             <div className="relative">
               <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl relative z-10 border-8 border-medical-slate">
                 <img 
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQloCZh8X1tPDvKpHMK0oiRmu9kE2DsCoxN7WqIX5Erow&s=10" 
+                  src="/Doctor%20Image.jpg" 
                   alt="Dr. Christal Doss" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
