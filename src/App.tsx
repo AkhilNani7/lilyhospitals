@@ -422,13 +422,14 @@ export default function App() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative"
             >
-              <div className="aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] relative z-10 border-8 border-white">
-                <img 
-                    src={hospitalBanner} 
-                    alt="Lily Clinic Banner" 
-                    className="w-full h-full object-contain bg-medical-ink"  
-                />
-              </div>
+              <div className="aspect-[3/4] max-w-md mx-auto rounded-[2.5rem] overflow-hidden shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] relative z-10 border-8 border-white">
+                  <img 
+                      src={hospitalBanner} 
+                      alt="Lily Clinic Banner" 
+                      className="w-full h-full object-cover"
+                     referrerPolicy="no-referrer"
+                  />
+              </div>
               
               {/* Floating Trust Card */}
               <motion.div 
